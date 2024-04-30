@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import About from '../components/About.astro';
+import Intro from '../components/Intro.astro';
+import Partners_organisers from '../components/Partners_organisers.astro';
+import Footer from '../components/Footer.astro';
+import Navbar from '../components/Navbar.astro';
+
+---
+
+<Layout title="IoT Geospatial Hackathon">
+
+	<html lang="en">
+	  <head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Expires" content="-1">
+		<meta name="description" content="Mapathon">
+		<meta name="author" content="FOSSEE web team">
+		<meta name="keywords" content="Hackathon, GIS, QGIS, competition, Hardware-IoT, National Level Open Hardware-IoT based GeoSpecial Hackathon">
+		<meta name="keywords"
+		   content="IIT Bombay,GeoSpecial solutions, Mapping, Open source, software, GIS">
+		<!-- --<link rel="icon" href="static/cms/uploads/images/favicon.html">-->
+		<title>National Level Open Hardware-IoT based GeoSpecial Hackathon</title>
+		<link href="./bootstrap.min.css" rel="stylesheet">
+		
+	 <!--   <link href="css/custom.css?ver=1.4" rel="stylesheet"> -->
+		<link href="./src/pages/custom.css" rel="stylesheet">
+	
+	 </head>
+	 <body>
+	 
+	  
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"
+			  aria-hidden="true"></i></button>
+	 
+	 <div class="banner-content">
+	 <div id="top-logo-placeholder" class="container-sm">
+		<div class="d-flex justify-content-center ">
+		   <div class="p-2 pt-4 pb-1">
+			  <a href="http://iitb.ac.in/" target="_blank">
+				 <img src="./public/images/img/iitb-logo.png"  class="img-fluid logos" alt="IITB">
+			  </a>
+		   </div>
+		   <div class="p-2 pt-4 pb-1">
+			  <a href="https://fossee.in/" target="_blank">
+				 <img src="./public/images/img/fossee-logo.png"
+						  class="img-fluid logos" alt="FOSSEE">
+			  </a>
+		   </div>
+	 
+		   <div class="p-2 pt-4 pb-1">
+			  <a href="http://www.rudra.iitb.ac.in/" target="_blank">
+				 <img src="./images/img/rudra-logo.png"
+						  class="img-fluid logos" alt="Rudra">
+			  </a>
+		   </div>
+		   <div class="p-2 pt-4 pb-1">
+			  <a href="https://www.iittp.ac.in/" target="_blank"> 
+				 <img src="./images/img/iit-tirupati.png" class="img-fluid logos" alt="IIT Tirupati">
+			  </a>
+		   </div>                      
+		   <div class="p-2 pt-4 pb-1">      
+			  <a href="https://iittnif.com/" target="_blank">
+				 <img src="./images/img/navavishkaar.png" class="img-fluid logos" alt="IITTNiF">
+			  </a>
+		   </div>
+	  <div class="p-2 pt-4 pb-1">      
+			  <a href="https://nmicps.in/" target="_blank">
+				 <img src="./images/img/NM-ICPS-logo1.png" class="img-fluid logos" alt="NMICPS">
+			  </a>
+		   </div>
+	   <div class="p-2 pt-4 pb-1">
+			  <a href="#" target="">
+				 <img src="./images/img/icfoss-logo.png" class="img-fluid logos big-img" alt="icfoss" style="@media screen and (min-width:480px;){
+	 .big-img{
+	 width:20%;
+	 }
+	 }">
+			  </a>
+		   </div>
+	 
+		</div>
+	 </div>
+	 </div>
+	<main>
+		<Navbar/>
+		<Intro/>
+		<About/>
+		<Partners_organisers />
+		<Footer />
+	</main>
+</Layout>
+
+
